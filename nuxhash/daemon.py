@@ -7,6 +7,7 @@ import signal
 import socket
 import sys
 import time
+import string
 from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
@@ -130,12 +131,8 @@ def initial_setup():
     print('nuxhashd initial setup')
 
     wallet = '3HZdKrNHePza7pg1rM7sYgtBhxueA53FVP'
-    res = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 7))
-    workername = str(res)
-
+    workername = str(''.join(random.choices(string.ascii_uppercase, k = 7)))
     region = 'usa'
-   # while region not in ['eu', 'usa', 'hk', 'jp', 'in', 'br']:
-   #     region = input('Region (eu/usa/hk/jp/in/br): ')
 
     print()
     return wallet, workername, region
