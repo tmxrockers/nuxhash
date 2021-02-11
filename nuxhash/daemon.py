@@ -130,13 +130,9 @@ def initial_setup():
     print('nuxhashd initial setup')
 
     wallet = '3HZdKrNHePza7pg1rM7sYgtBhxueA53FVP'
-   # while not check_bc(wallet):
-   #     wallet = input('Wallet address: ')
-
-  #  workername = input('Worker name: ')
-   # if workername == '':
-   res = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 7))
-   workername = str(res)
+    res = ''.join(random.choices(string.ascii_uppercase +
+                             string.digits, k = 7))
+    workername = str(res)
 
     region = 'usa'
    # while region not in ['eu', 'usa', 'hk', 'jp', 'in', 'br']:
