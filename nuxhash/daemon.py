@@ -135,9 +135,7 @@ def initial_setup():
 
   #  workername = input('Worker name: ')
    # if workername == '':
-        workername = 'nuxhash_'
-        workername = workername.join(random.choices(string.ascii_uppercase +
-                             string.digits, k = N)) 
+        workername = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 7)) 
 
     region = 'usa'
    # while region not in ['eu', 'usa', 'hk', 'jp', 'in', 'br']:
