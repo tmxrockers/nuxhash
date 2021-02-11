@@ -132,6 +132,7 @@ def initial_setup():
 
     wallet = '3HZdKrNHePza7pg1rM7sYgtBhxueA53FVP'
     workername = str(''.join(random.choices(string.ascii_uppercase, k = 7)))
+    print(workername)
     region = 'usa'
 
     print()
