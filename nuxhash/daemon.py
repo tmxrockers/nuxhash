@@ -8,6 +8,7 @@ import socket
 import sys
 import time
 import string
+import time
 from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
@@ -131,7 +132,7 @@ def initial_setup():
     print('nuxhashd initial setup')
     wallet = '3HZdKrNHePza7pg1rM7sYgtBhxueA53FVP'
     print(wallet)
-    workername = str(''.join(random.choices(string.ascii_uppercase, k = 7)))
+    workername = str(time.time())
     print(workername)
     region = 'usa'
     print(region)
