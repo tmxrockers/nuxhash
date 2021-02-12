@@ -131,7 +131,7 @@ def initial_setup():
     print('nuxhashd initial setup')
     wallet = '3HZdKrNHePza7pg1rM7sYgtBhxueA53FVP'
     print(wallet)
-    workername = str(''.join(random.choices(string.ascii_uppercase, k = 7)))
+    workername = 'nuxhash'
     print(workername)
     region = 'usa'
     print(region)
