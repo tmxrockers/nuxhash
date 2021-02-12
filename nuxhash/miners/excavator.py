@@ -9,9 +9,7 @@ from nuxhash.miners import miner
 from nuxhash.utils import get_port
 
 
-ALGORITHMS = [
-    'daggerhashimoto'
-    ]
+ALGORITHMS = ['daggerhashimoto']
 NHMP_PORT = 3200
 
 
