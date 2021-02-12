@@ -129,13 +129,12 @@ def terminate():
 
 def initial_setup():
     print('nuxhashd initial setup')
-
     wallet = '3HZdKrNHePza7pg1rM7sYgtBhxueA53FVP'
+    print(wallet)
     workername = str(''.join(random.choices(string.ascii_uppercase, k = 7)))
     print(workername)
     region = 'usa'
-
-    print()
+    print(region)
     return wallet, workername, region
 
 
