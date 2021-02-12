@@ -10,10 +10,7 @@ from nuxhash.utils import get_port
 
 
 ALGORITHMS = [
-    'equihash',
     'daggerhashimoto',
-    'daggerhashimoto_decred',
-    'daggerhashimoto_pascal',
     'cryptonightV7',
     'cryptonightV8'
     ]
